@@ -9,7 +9,10 @@ let year = date.getFullYear();
 document.getElementById("year").innerHTML = year;
 
 const preloader = document.getElementById("loading");
-window.addEventListener("load", dissapear);
-function dissapear() {
+window.addEventListener("load", function () {
   preloader.style.display = "none";
-}
+});
+// window.addEventListener("load", dissapear);
+// function dissapear() {
+//   preloader.style.display = "none";
+// }
